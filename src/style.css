@@ -14,13 +14,23 @@ h1,h2,h3,h4,h5,h6 {
    color:black;
 }
 
-p{
-   font-weight: 200;
-}
-
 h1 {
    font-size: 96px;
    line-height: 125px ;
+}
+
+h2{
+   font-size: 48px;
+}
+
+h3{
+   font-size:22px
+}
+
+p{
+   font-weight: 200;
+   font-size: 18px;
+   color: #828282;
 }
 
 .hero{
@@ -44,4 +54,27 @@ h1 {
    font-size: 18px;
    line-height:27px;
    padding:15px 30px;
+}
+
+.btn-branding-outline {
+   color: var(--secondary-colour);
+   border-color: 1px solid var(--secondary-colour);
+   border-radius: 4px;
+   font-size: 18px;
+   line-height:27px;
+   padding:15px 30px;
+}
+
+.placeholder-image {
+   max-width: 95%;
+   margin-top: 90px;
+}
+
+
+@media (max-width:960px) {
+   .description {
+      text-align: center;
+   }
+   
+
 }
