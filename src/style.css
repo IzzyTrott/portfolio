@@ -38,6 +38,12 @@ p {
   color: #828282;
 }
 
+a{
+   font-size: 24px;
+   color: var(--secondary-colour);
+   text-decoration: none;
+}
+
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -109,6 +115,10 @@ p {
    font-family: var(--heading-font-family);
 }
 
+.contact-info{
+   margin-left: 40px;
+  }
+
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
@@ -152,4 +162,9 @@ p {
    color: var(--secondary-colour);
    font-size: 20px;
   }
+
+  .contact-info{
+   margin:0;
+  }
+  
 }
