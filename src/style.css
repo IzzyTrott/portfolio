@@ -105,7 +105,8 @@ p {
   border: none;
 }
 .content .work-title {
-   font-size: 32px;
+   font-size: 28px;
+   font-family: var(--heading-font-family);
 }
 
 @media (max-width: 960px) {
