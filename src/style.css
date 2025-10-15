@@ -44,6 +44,9 @@ a{
    text-decoration: none;
 }
 
+.logo {
+  max-height: 42px;
+}
 .hero {
   background-color: var(--primary-color);
   text-align: center;
