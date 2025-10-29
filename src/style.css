@@ -110,6 +110,9 @@ color:white;
 background-color: var(--secondary-colour);
 }
 
+hr{
+  color: var(--secondary-colour);
+}
 
 a{
    font-size: 24px;
