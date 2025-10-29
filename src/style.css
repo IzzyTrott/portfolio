@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #f9f7fe;
-  --secondary-colour: #6c63ff;
+  --primary-color: #fff3f5;
+  --secondary-colour: #a33c4d;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -138,11 +138,11 @@ a{
   line-height: 36px;
 }
 .content-container {
-   padding:60px 20px;
+   padding:30px 20px;
 }
 
 .content{
-   margin: 30px
+   margin: 5px 30px
 }
 .content h1 {
   font-size: 64px;
@@ -182,9 +182,16 @@ a{
   padding: 15px 30px;
 }
 
-.placeholder-image {
-  max-width: 95%;
-  margin-top: 90px;
+.profile-image {
+  max-width: 62%;
+  margin-top: 85px;
+  margin-left: 120px;
+}
+
+.about-image{
+  max-width: 80%;
+  margin-top: 120px;
+  margin-left: 60px;
 }
 
 .card {
